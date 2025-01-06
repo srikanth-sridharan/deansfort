@@ -1,7 +1,6 @@
 'use client'
 import HeroContent from "./HeroContent";
-import Lottie from "lottie-react";
-import webRegister from "./working-chart.json";
+
 
 function Hero() {
   return (
@@ -12,7 +11,7 @@ function Hero() {
             <HeroContent />
           </div>
           <div className="col-lg-5">
-            <Lottie animationData={webRegister} loop={true} />
+           
           </div>
         </div>
       </div>
