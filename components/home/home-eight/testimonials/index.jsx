@@ -9,30 +9,30 @@ const testimonialsData = [
 		id: 1,
 		image: image1,
 		rating: 5,
-		review: "We are very satisfied to with a Sofax services we have to a recived from Sofax so far. Although Sofax has to only been around.",
+		review: "This IT company has been an invaluable partner in our digital transformation journey. Their expertise in web development, coupled with innovative digital marketing strategies, has significantly boosted our online presence and driven tangible results. We're particularly impressed with their AI-powered solutions that have streamlined our operations and enhanced customer engagement.",
 		author: {
-			name: "Derrick Turner",
-			title: "Web Developer",
+			name: "David Miller",
+			title: "CEO",
 		},
 	},
 	{
 		id: 2,
 		image: image2,
 		rating: 5,
-		review: "It’s an all-in-one solution to that a has turbocharged the growth. The lead a generation & capbilities. our partner & result spesk.",
+		review: "We were seeking a reliable IT partner to help us modernize our website and expand our digital reach. This company exceeded our expectations in every way. Their team of skilled developers, marketers, and AI specialists delivered a high-quality website that is both user-friendly and visually appealing. Their ongoing digital marketing support has consistently generated valuable leads and increased brand awareness.",
 		author: {
-			name: "Semits Johan",
-			title: "Manager",
+			name: "Sarah Jones",
+			title: "Marketing Director",
 		},
 	},
 	{
 		id: 3,
 		image: image3,
 		rating: 5,
-		review: "Great results a enjoyable to the work with & most importanly, enabled us to the presence on the website needed conduct business.",
+		review: "As a growing startup, we needed a comprehensive IT solution that could support our rapid growth. This company provided us with exceptional web development services, creating a robust and scalable online platform. Their digital marketing expertise has been instrumental in reaching our target audience and driving conversions. We're particularly excited about the potential of their AI solutions to further optimize our business processes and enhance customer satisfaction.",
 		author: {
-			name: "Wellim Selith",
-			title: "Markater",
+			name: "Rohan Sharma",
+			title: "CTO",
 		},
 	},
 ];
@@ -43,7 +43,7 @@ function Testimonials() {
 			<div className="container">
 				<div className="sofax-section-title center max-width-large">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>See what our customers say about us</h2>
+						<h2>What Our Clients Are Saying</h2>
 					</div>
 				</div>
 				<div className="row">
