@@ -1,17 +1,11 @@
-'use client'
+"use client";
 import HeroContent from "./HeroContent";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+
 import webRegister from "./working-chart.json";
 
 function Hero() {
-
-  
-if (typeof window !== 'undefined') {
-  let lottieComponent = <Lottie animationData={webRegister} loop={true} />
-} else {
-  let lottieComponent = <></>
-}
-
   return (
     <div className=" section sofax-section-padding4" id="hero">
       <div className="container">
@@ -20,7 +14,7 @@ if (typeof window !== 'undefined') {
             <HeroContent />
           </div>
           <div className="col-lg-5">
-            <lottieComponent />
+            <Lottie animationData={webRegister} loop={true} />
           </div>
         </div>
       </div>
