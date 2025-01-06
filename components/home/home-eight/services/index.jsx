@@ -10,42 +10,42 @@ const servicesData = [
 	{
 		id: 1,
 		icon: icon1,
-		title: "IT Services and IT Consulting",
+		title: "Website Development",
 		description:
-			"Define to the project scope, objectives, and feasibility. Conduct risk analysis and allocate resources.",
+			"Develop custom websites & web apps with WordPress or React.js, including seamless migrations for a smooth transition.",
 	},
 	{
 		id: 2,
 		icon: icon2,
-		title: "Technology Advisory",
-		description: "Development implementation supports risk management and staying ahead of technological trends.",
+		title: "AI development",
+		description: "Develop custom AI applications, integrate AI into websites, and create intelligent chatbots for enhanced user experiences.",
 	},
 	{
 		id: 3,
 		icon: icon3,
-		title: "Analytics & Research",
+		title: "IT services",
 		description:
-			"Investigating why a certain event trend or occurred. Identifying patterns and anomalies in data research.",
+			"Comprehensive IT services: Planning, implementation, and management of IT infrastructure, resources, and colocation, along with IT product offerings.",
 	},
 	{
 		id: 4,
 		icon: icon4,
-		title: "IT Strategy & Planning",
+		title: "Digital Marketing",
 		description:
-			"IT strategy and planning it effectively is essential for aligning technology with a business goals.",
+			"Drive online visibility with expert content creation, SEO (on-page, off-page, backlinks), and keyword research for maximum impact.",
 	},
 	{
 		id: 5,
 		icon: icon5,
-		title: "SEO & Optimazation",
+		title: "Ecommere Solutions",
 		description:
-			"Google Analytics, Ahrefs, SEMrush, a Moz for keyword research, backlink analysis performance tracking.",
+			"Develop high-performing e-commerce stores on WordPress, Shopify, or custom frameworks like Next.js (MERN/PERN) for unique business needs.",
 	},
 	{
 		id: 6,
 		icon: icon6,
-		title: "Network Management",
-		description: "This includes wide range tasks such as monitoring network performance, troubleshooting issues.",
+		title: "Mobile App Development",
+		description: "Develop high-quality mobile apps across platforms using React Native, Flutter, and native languages (Kotlin/Swift) for optimal performance.",
 	},
 ];
 function Services() {
@@ -54,7 +54,7 @@ function Services() {
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>We provide IT and business solutions</h2>
+						<h2>Proven Solutions & Expert Advice for your needs.</h2>
 					</div>
 				</div>
 
