@@ -5,7 +5,7 @@ function ServiceCard({ service: { icon, title, description } }) {
 	return (
 		<div>
 			<div className="sofax-features-iconv7">
-				<Image src={icon} alt="icon" />
+				<Image width={64} src={icon} alt="icon" />
 			</div>
 			<div className="sofax-features-contentv7">
 				<h4>{title}</h4>
