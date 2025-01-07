@@ -4,7 +4,7 @@ import Icon2 from "@/public/images/v8/icon2v8.png";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
-import rocket from "./rocket.json";
+import rocket from "./Outperform.json";
 
 function AboutOne() {
   return (

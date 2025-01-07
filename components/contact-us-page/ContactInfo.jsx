@@ -10,8 +10,8 @@ function ContactInfo() {
 					<Image src={Icon1} alt="Icon chat" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Chat with us</h4>
-					<p>We're waiting to help you every Monday-Friday from 9 am to 5 pm EST easily.</p>
+					<h4>Quick Answers at Your Fingertips!</h4>
+					<p>Connect with our team Monday-Friday, 9 AM to 5 PM EST, for instant assistance.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
@@ -19,8 +19,8 @@ function ContactInfo() {
 					<Image src={Icon2} alt="Call icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Give us a call</h4>
-					<p>QGive us a ring at (+088-234-567-90). Every monday-friday from 9 am to 5 pm.</p>
+					<h4>Your Voice Matters to Us!</h4>
+					<p>Reach out at (+91 6383 849 069), and we'll gladly assist you Monday-Friday, 9 AM to 5 PM.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
@@ -28,8 +28,8 @@ function ContactInfo() {
 					<Image src={Icon3} alt="Email Icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Email Us</h4>
-					<p>Drop us an email at example@gmail.com and you'll receive a reply within 24 hours.</p>
+					<h4>Got Questions? Drop Us a Line!</h4>
+					<p>Send us an email at contact@deansfort.com, and we’ll respond within 24 hours.</p>
 				</div>
 			</div>
 		</div>
