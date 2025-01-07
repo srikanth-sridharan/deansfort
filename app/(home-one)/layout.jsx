@@ -1,10 +1,10 @@
-import Footer from "@/components/home/home-one/footer";
-import Header from "@/components/home/home-one/header/multi-page";
+import Footer from "@/components/home/home-eight/footer";
+import Header from "@/components/home/home-eight/header/multi-page";
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template Home One",
-	description: "Sofax || Responsive Next.js Template",
+	title: "DeansFort - AI-Powered Web & Mobile Development Solutions",
+	description: "DeansFort: A leading AI web development agency offering comprehensive digital solutions including web development, mobile app creation, IT services, digital marketing, and innovative branding strategies.",
 };
-function LayoutOne({ children }) {
+function LayoutEight({ children }) {
 	return (
 		<>
 			<Header />
@@ -14,4 +14,4 @@ function LayoutOne({ children }) {
 	);
 }
 
-export default LayoutOne;
+export default LayoutEight;
