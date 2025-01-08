@@ -159,7 +159,7 @@ function AboutUs() {
           </blockquote>
         </div>
       </div>
-      <Faq />
+      {/* <Faq /> */}
     </>
   );
 }
