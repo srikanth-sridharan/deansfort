@@ -37,10 +37,10 @@ function SingleServiceDetails() {
           <Tabs>
             <TabList>
               <Tab>UI/UX Design</Tab>
-              <Tab>WEB APPLICATION DEVELOPMENT</Tab>
+              <Tab>Web Application Development</Tab>
               <Tab>CMS</Tab>
               <Tab>Headless CMS</Tab>
-              <Tab>WEBSITE MAINTAINCE AND SUPPORT</Tab>
+              <Tab>Website Maintenance & Support</Tab>
             </TabList>
             <TabPanel>
               Unleash the full potential of your brand with our premium website
