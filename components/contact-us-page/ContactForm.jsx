@@ -38,7 +38,7 @@ function ContactForm() {
                 },
                 body: JSON.stringify({
                     ...data,
-                    access_key: "8a66e95d-5ba0-41f5-86c5-3984cbea5a3c", // Replace with your actual access key
+                    access_key: process.env.NEXT_PUBLIC_WEB3FORMS_API_KEY, // Replace with your actual access key
                     from_name: "Website Contact Form"
                 })
             });
