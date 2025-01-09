@@ -1,6 +1,6 @@
 "use client";
-import Icon1 from "@/public/images/v8/icon1v8.png";
-import Icon2 from "@/public/images/v8/icon2v8.png";
+import Icon1 from "@/public/images/v8/cs.png";
+import Icon2 from "@/public/images/v8/support.png";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
@@ -11,12 +11,12 @@ function AboutOne() {
     <div className="aboutversoin8 sofax-section-padding2 bg-light">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-5">
             <div className="sofax-about-thumbv8 wow fadeInLeft">
               <Lottie animationData={rocket} loop={true} />{" "}
             </div>
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-7">
             <div className="sofax-default-content about-vr8 tac">
               <div className="tg-heading-subheading animation-style3">
                 <h2>How We Outperform Competitors</h2>
@@ -29,11 +29,11 @@ function AboutOne() {
               </p>
             </div>
             <div className="sofax-about-content-wrap">
-              <div className="sofax-iconbox-wrap2">
+              <div className="sofax-iconbox-wrap2 col-lg-6">
                 <div className="sofax-iconbox-icon2">
                   <Image src={Icon1} alt="icon" />
                 </div>
-                <div className="sofax-iconbox-data2 aboutv8">
+                <div className="sofax-iconbox-data2 aboutv8 ">
                   <h4>Innovative Problem Solving</h4>
                   <p>
                     Our comprehensive approach ensures that issues are
@@ -42,7 +42,7 @@ function AboutOne() {
                   </p>
                 </div>
               </div>
-              <div className="sofax-iconbox-wrap2">
+              <div className="sofax-iconbox-wrap2 col-lg-6">
                 <div className="sofax-iconbox-icon2">
                   <Image src={Icon2} alt="icon" />
                 </div>
