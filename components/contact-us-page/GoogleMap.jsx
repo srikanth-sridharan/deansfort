@@ -7,14 +7,14 @@ const containerStyle = {
 };
 
 const center = {
-	lat: 11.168918,
-	lng: 76.955832,
+	lat: 24.5369685,
+	lng: 92.014091,
 };
 
 function MyGoogleMap() {
 	const { isLoaded } = useJsApiLoader({
 		id: "google-map-script",
-		googleMapsApiKey: "AIzaSyBb_aeT6Hr9qX7qxrrkaaaTRgFssam2A7E",
+		googleMapsApiKey: "",
 	});
 
 	const [map, setMap] = useState(null);
