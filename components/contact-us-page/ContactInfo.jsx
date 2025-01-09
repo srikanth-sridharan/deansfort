@@ -11,7 +11,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Quick Answers at Your Fingertips!</h4>
-					<p>Connect with our team Monday-Friday, 9 AM to 5 PM EST, for instant assistance.</p>
+					<p>Connect with our team Monday-Friday, 9 AM to 5 PM IST, for instant assistance.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">

@@ -1,4 +1,4 @@
-import Logo from "@/public/images/logo/dflogo.png";
+import Logo from "@/public/images/logo/dflogo.svg";
 import Image from "next/image";
 import Link from "next/link";
 function HeaderLogo() {
