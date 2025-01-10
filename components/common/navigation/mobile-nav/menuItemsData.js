@@ -8,128 +8,32 @@ export const menuItemsData = [
 		url: "about-us",
 	},
 	{
-		title: "Pages",
+		title: "Services",
 		url: "#",
 		submenu: [
 			{
-				title: "About Us",
-				url: "about-us",
+				title: "Website Development",
+				url: "services/web-development",
 			},
 			{
-				title: "Pricing",
-				url: "pricing",
+				title: "AI Development",
+				url: "services/ai-development",
 			},
 			{
-				title: "Blog",
-				url: "#",
-				submenu: [
-					{
-						title: "Our Blog",
-						url: "blog",
-					},
-					{
-						title: "Blog Details",
-						url: "single-blog",
-					},
-				],
+				title: "IT Services",
+				url: "services/it-services",
 			},
 			{
-				title: "Service",
-				url: "#",
-				submenu: [
-					{
-						title: "Service",
-						url: "service",
-					},
-					{
-						title: "Service Details",
-						url: "single-service",
-					},
-				],
+				title: "Digital Marketing",
+				url: "services/digital-marketing",
 			},
 			{
-				title: "Team",
-				url: "#",
-				submenu: [
-					{
-						title: "Team",
-						url: "team",
-					},
-					{
-						title: "Team Details",
-						url: "single-team",
-					},
-				],
+				title: "Ecommerce Solutions",
+				url: "services/ecommerce-solutions",
 			},
 			{
-				title: "Career",
-				url: "#",
-				submenu: [
-					{
-						title: "Career",
-						url: "career",
-					},
-					{
-						title: "Career Details",
-						url: "single-career",
-					},
-				],
-			},
-			{
-				title: "Portfolio",
-				url: "#",
-				submenu: [
-					{
-						title: "Our Portfolio",
-						url: "portfolio",
-					},
-
-					{
-						title: "Single Portfolio",
-						url: "single-portfolio",
-					},
-				],
-			},
-			{
-				title: "Utility",
-				url: "#",
-				submenu: [
-					{
-						title: "Faq",
-						url: "faq",
-					},
-					{
-						title: "Error 404",
-						url: "error-page",
-					},
-
-					{
-						title: "Coming Soon",
-						url: "coming-soon",
-					},
-					{
-						title: "Terms & Condition",
-						url: "terms-and-condition",
-					},
-				],
-			},
-			{
-				title: "Account",
-				url: "#",
-				submenu: [
-					{
-						title: "Sign Up",
-						url: "sign-up",
-					},
-					{
-						title: "Sign In",
-						url: "sign-in",
-					},
-					{
-						title: "Reset Password",
-						url: "reset-password",
-					},
-				],
+				title: "Mobile App Development",
+				url: "services/mobile-development",
 			},
 		],
 	},
