@@ -17,7 +17,7 @@
 :root {
 	--heading-color: #0e0e0e;
 	--body-color: #3c3c3c;
-	--accent-color: #BE1E2D;	;
+	--accent-color: #BE1E2D;
 	--light-bg: #f9f9fa;
 	--dark-bg: #0A6A47;
 	--white-bg: #fff;
@@ -8560,3 +8560,62 @@ button#sofax-submit-btn:hover {
 
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
+
+
+.services-tabs .react-tabs__tab-list {
+	border: none;
+	margin-bottom: 2rem;
+  }
+  
+  .services-tabs .react-tabs__tab {
+	border: none;
+	padding: 0;
+	margin: 0 0.5rem;
+  }
+  
+  .services-tabs .react-tabs__tab .nav-link {
+	color: #6c757d;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	transition: all 0.3s ease;
+  }
+  
+  .services-tabs .react-tabs__tab--selected .nav-link {
+	background-color: #0A6A47;
+	color: white;
+  }
+  
+  .tab-content {
+	background-color: white;
+	padding: 1.5rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .service-content {
+	margin: 0 auto;
+  }
+  
+  .service-content h3 {
+	font-size: 1.75rem;
+	font-weight: 600;
+	color: #0A6A47;
+	margin-bottom: 1.5rem;
+  }
+  
+  .service-content .lead {
+	font-size: 1.25rem;
+	font-weight: 300;
+	color: #495057;
+	margin-bottom: 1.5rem;
+  }
+  
+  .service-content p {
+	color: #6c757d;
+	line-height: 1.7;
+	margin-bottom: 1rem;
+  }
+  
+  .gap-2 {
+	gap: 0.5rem;
+  }

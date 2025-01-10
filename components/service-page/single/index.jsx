@@ -8,6 +8,7 @@ import FadeInRight from "../../animation/FadeInRight";
 import FadeInUp from "../../animation/FadeInUp";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import ServiceTabs from "./ServiceTabs";
 function SingleServiceDetails() {
   return (
     <section className="sofax-section-padding2">
@@ -34,79 +35,7 @@ function SingleServiceDetails() {
             can be confident that your online presence is reliable, effective,
             and always performing at its best.
           </p>
-          <Tabs>
-            <TabList>
-              <Tab id="dark-bg">UI/UX Design</Tab>
-              <Tab>Web Application Development</Tab>
-              <Tab>CMS</Tab>
-              <Tab>Headless CMS</Tab>
-              <Tab>Website Maintenance & Support</Tab>
-            </TabList>
-            <TabPanel>
-              Unleash the full potential of your brand with our premium website
-              design services! From pixel-perfect designs in Figma and Adobe XD
-              to blazing-fast development in HTML, CSS, and JavaScript, we
-              create visually stunning, high-performing websites. Dive into
-              interactive brilliance with Framer and Webflow, delivering
-              seamless UX/UI for every device. Our designs aren’t just
-              websites—they’re digital experiences that captivate, convert, and
-              leave lasting impressions. Boost your online presence with bespoke
-              designs, cutting-edge technology, and a team that brings your
-              vision to life!
-            </TabPanel>
-            <TabPanel>
-              We design and develop robust, high-performing custom web
-              applications tailored to drive your business forward. With
-              cutting-edge technologies like React, Angular, and Vue.js for the
-              frontend, paired with powerful backend frameworks such as Python
-              (Django, Flask) and Node.js (Express), we deliver seamless
-              functionality. Our expertise extends to MySQL, PostgreSQL, and
-              MongoDB databases, ensuring secure and efficient data management.
-              From smooth REST APIs and API integrations to scalable,
-              future-proof solutions, we focus on delivering user-friendly,
-              innovative, and results-driven web apps to help your business
-              thrive in the digital era.
-            </TabPanel>
-            <TabPanel>
-              Unlock your website’s true potential with our exceptional Content
-              Management System (CMS) development and integration services! We
-              specialize in leading CMS platforms like Wix, WordPress, Joomla,
-              and Drupal, providing seamless plugin installations, expert setup,
-              configuration, and complete customization. Whether you're
-              launching a blog, business site, or eCommerce platform, our
-              solutions guarantee scalability, performance enhancement, and a
-              responsive design. We build secure, SEO-friendly CMS websites that
-              simplify content management while driving your digital growth.
-              Partner with us to create a future-proof website that evolves with
-              your business needs!
-            </TabPanel>
-            <TabPanel>
-              Unlock the full potential of your digital presence with our
-              next-generation Headless CMS solutions. Harnessing the power of
-              WordPress, Drupal, and Joomla, we seamlessly integrate with
-              cutting-edge JavaScript frameworks like React, Angular, and Vue.js
-              to create dynamic, highly scalable websites and applications.
-              Powered by GraphQL, our solutions offer unparalleled efficiency,
-              faster content delivery, and seamless data management. With a
-              focus on performance, customization, and SEO optimization, we
-              craft future-proof digital experiences that empower your brand to
-              stay ahead of the curve. Let us redefine your online presence with
-              innovative, flexible, and robust headless CMS integrations that
-              drive success.
-            </TabPanel>
-            <TabPanel>
-              At DeansFort Technologies, we offer exceptional website ongoing
-              maintenance and support services, ensuring your site runs
-              seamlessly 24/7. From secure hosting and regular updates to
-              technical troubleshooting and performance optimization, we cover
-              every aspect of your website’s needs. What sets us apart is our
-              commitment to providing equal, top-tier service to all clients,
-              big or small. With proactive maintenance, technical support, and
-              up-to-date solutions, we ensure your website remains fast, secure,
-              and optimized for success. Let us keep your site performing at its
-              best!
-            </TabPanel>
-          </Tabs>
+          <ServiceTabs />
         </div>
         <div className="sofax-default-content sofax-inner-service-details position-ralatiove">
           <h2>How our agency provides UI/UX design services</h2>
