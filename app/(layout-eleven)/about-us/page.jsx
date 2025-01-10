@@ -1,16 +1,11 @@
 import Image from "next/image";
-import AutoSlider from "@/components/common/auto-slider";
 import BreadCrumb from "@/components/common/Breadcrumb";
 import featureIcon from "@/public/images/v1/icon8.png";
-import AboutOne from "@/components/home/home-five/about-one";
-import Faq from "@/components/home/home-five/faq";
-import Features from "@/components/home/home-five/features";
-import TeamMembers from "@/components/team-page/TeamMembers";
 
 // Teams images
 export const metadata = {
-  title: "Sofax || Responsive Next.js Template About Us",
-  description: "Sofax || Responsive Next.js Template",
+	title: "The AI and IT Web Development Company - DeansFort",
+	description: "DeansFort: A leading AI web development agency offering comprehensive digital solutions including web development, mobile app creation, IT services, digital marketing, and innovative branding strategies.",
 };
 function AboutUs() {
   return (

@@ -1,4 +1,4 @@
-import Shape1 from "@/public/images/v5/shape1.png";
+import Shape1 from "@/public/images/v5/star.png";
 import Shape5 from "@/public/images/v5/shape5.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,12 +10,10 @@ function FooterCta() {
 			<div className="row">
 				<div className="col-xl-8 col-lg-8">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>
-							<TextSplitFadeIn>Let's embark on a digital journey together!</TextSplitFadeIn>
-						</h2>
+					<h2>Let’s Launch IT.<br />Turn Ideas into Reality!</h2>
 					</div>
 					<div className="sofax-footer-shapev5">
-						<Image src={Shape1} alt="shape" />
+						<Image width={90} src={Shape1} alt="shape" />
 					</div>
 					<div className="sofax-footer-shape2v5">
 						<Image src={Shape5} alt="shape" />

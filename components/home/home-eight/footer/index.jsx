@@ -29,7 +29,7 @@ function Footer() {
                 <div className="sofax-social-icon">
                   <ul>
                     <li>
-                      <a target="_blank" href="https://www.twitter.com/">
+                      <a target="_blank" href="https://x.com/Deansforttech">
                         <svg
                           width="17"
                           height="18"
@@ -45,7 +45,7 @@ function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" href="https://www.facebook.com/">
+                      <a target="_blank" href="https://www.facebook.com/deansfort">
                         <svg
                           width="11"
                           height="18"
@@ -61,7 +61,7 @@ function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" href="https://www.instagram.com/">
+                      <a target="_blank" href="https://www.instagram.com/deansfort">
                         <svg
                           width="18"
                           height="17"
@@ -85,7 +85,7 @@ function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" href="https://bd.linkedin.com/">
+                      <a target="_blank" href="https://www.linkedin.com/company/deansfort/about/">
                         <svg
                           width="16"
                           height="16"

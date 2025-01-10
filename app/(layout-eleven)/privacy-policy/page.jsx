@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Sofax || Responsive Next.js Template Terms and Condition Page",
-  description: "Sofax || Responsive Next.js Template",
+	title: "The AI and IT Web Development Company - DeansFort",
+	description: "DeansFort: A leading AI web development agency offering comprehensive digital solutions including web development, mobile app creation, IT services, digital marketing, and innovative branding strategies.",
 };
 function PrivacyPolicyPage() {
   return (

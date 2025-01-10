@@ -2,8 +2,8 @@ import ErrorImg from "@/public/images/contact/404.png";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template Error Page",
-	description: "Sofax || Responsive Next.js Template",
+	title: "The AI and IT Web Development Company - DeansFort",
+	description: "DeansFort: A leading AI web development agency offering comprehensive digital solutions including web development, mobile app creation, IT services, digital marketing, and innovative branding strategies.",
 };
 export default function ErrorPage() {
 	return (
