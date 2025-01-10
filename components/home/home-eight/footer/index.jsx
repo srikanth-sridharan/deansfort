@@ -1,4 +1,4 @@
-import Logo from "@/public/images/logo/logo-dark.svg";
+import Logo from "@/public/images/logo/dflogo.svg";
 import Link from "next/link";
 
 import Image from "next/image";
@@ -19,7 +19,7 @@ function Footer() {
             <div className="col-xl-4 col-md-12">
               <div className="sofax-footer-wrap mr-25">
                 <Link href="/multi-page/home-eight">
-                  <Image src={Logo} alt="Logo" />
+                  <Image width={210} src={Logo} alt="Logo" />
                 </Link>
                 <p>
                   Join the Deansfort family today and be a part of our journey

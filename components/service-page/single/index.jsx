@@ -36,7 +36,7 @@ function SingleServiceDetails() {
           </p>
           <Tabs>
             <TabList>
-              <Tab>UI/UX Design</Tab>
+              <Tab id="dark-bg">UI/UX Design</Tab>
               <Tab>Web Application Development</Tab>
               <Tab>CMS</Tab>
               <Tab>Headless CMS</Tab>

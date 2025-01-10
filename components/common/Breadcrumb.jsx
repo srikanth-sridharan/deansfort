@@ -6,17 +6,7 @@ function BreadCrumb({ title }) {
 		<div className="sofax-breadcrumb">
 			<div className="container">
 				<h1 className="post__title">{title}</h1>
-				<nav className="breadcrumbs">
-					<ul>
-						<li>
-							<Link href="/">Home</Link>
-						</li>
-						<li>
-							<Image src={Arrow} alt="arrow" />
-						</li>
-						<li aria-current="page"> {title}</li>
-					</ul>
-				</nav>
+				
 			</div>
 		</div>
 	);

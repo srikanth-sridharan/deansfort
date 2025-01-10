@@ -1,4 +1,4 @@
-import Shape from "@/public/images/v5/shape1.png";
+import Shape from "@/public/images/v5/star.png";
 import Image from "next/image";
 import Link from "next/link";
 function FooterCta() {
@@ -9,7 +9,7 @@ function FooterCta() {
 					<h2>Let’s Launch IT.<br />Turn Ideas into Reality!</h2>
 				</div>
 				<div className="sofax-footer-shapev8">
-					<Image src={Shape} alt="shape" />
+					<Image width={90} src={Shape} alt="shape" />
 				</div>
 			</div>
 			<div className="col-xl-4 col-lg-4 d-flex align-items-center justify-content-end">
