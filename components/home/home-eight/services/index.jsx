@@ -13,12 +13,15 @@ const servicesData = [
 		title: "Website Development",
 		description:
 			"Develop custom websites & web apps with WordPress or React.js, including seamless migrations for a smooth transition.",
+		 link: "/services/web-development",
 	},
 	{
 		id: 2,
 		icon: icon2,
 		title: "AI development",
 		description: "Develop custom AI applications, integrate AI into websites, and create intelligent chatbots for enhanced user experiences.",
+		link: "/services/ai-development",
+
 	},
 	{
 		id: 3,
@@ -26,26 +29,34 @@ const servicesData = [
 		title: "IT services",
 		description:
 			"Comprehensive IT services: Planning, implementation, and management of IT infrastructure, resources, and colocation, along with IT product offerings.",
-	},
+			link: "/services/it-services",
+
+		},
 	{
 		id: 4,
 		icon: icon4,
 		title: "Digital Marketing",
 		description:
 			"Drive online visibility with expert content creation, SEO (on-page, off-page, backlinks), and keyword research for maximum impact.",
-	},
+			link: "/services/digital-marketing",
+
+		},
 	{
 		id: 5,
 		icon: icon5,
 		title: "Ecommere Solutions",
 		description:
 			"Develop high-performing e-commerce stores on WordPress, Shopify, or custom frameworks like Next.js (MERN/PERN) for unique business needs.",
-	},
+			link: "/services/ecommerce-solutions",
+
+		},
 	{
 		id: 6,
 		icon: icon6,
 		title: "Mobile App Development",
 		description: "Develop high-quality mobile apps across platforms using React Native, Flutter, and native languages (Kotlin/Swift) for optimal performance.",
+		link: "/services/mobile-development",
+
 	},
 ];
 function Services() {

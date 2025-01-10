@@ -18,8 +18,8 @@ function Footer() {
           <div className="row">
             <div className="col-xl-4 col-md-12">
               <div className="sofax-footer-wrap mr-25">
-                <Link href="/multi-page/home-eight">
-                  <Image width={210} src={Logo} alt="Logo" />
+                <Link href="/multi-page/home-five">
+                  <Image width={180} src={Logo} alt="logo" />
                 </Link>
                 <p>
                   Join the Deansfort family today and be a part of our journey
@@ -29,7 +29,7 @@ function Footer() {
                 <div className="sofax-social-icon">
                   <ul>
                     <li>
-                      <a target="_blank" href="https://x.com/Deansforttech">
+                      <a target="_blank" href="https://www.twitter.com/">
                         <svg
                           width="17"
                           height="18"
@@ -45,10 +45,7 @@ function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        target="_blank"
-                        href="https://www.facebook.com/deansfort/"
-                      >
+                      <a target="_blank" href="https://www.facebook.com/">
                         <svg
                           width="11"
                           height="18"
@@ -64,10 +61,7 @@ function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        target="_blank"
-                        href="https://www.instagram.com/deansfort"
-                      >
+                      <a target="_blank" href="https://www.instagram.com/">
                         <svg
                           width="18"
                           height="17"
@@ -91,10 +85,7 @@ function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        target="_blank"
-                        href="https://www.linkedin.com/company/deansfort/"
-                      >
+                      <a target="_blank" href="https://bd.linkedin.com/">
                         <svg
                           width="16"
                           height="16"
@@ -126,35 +117,44 @@ function Footer() {
                 <h5>Company</h5>
                 <ul>
                   <li>
-                    <Link href="/about-us">About Us</Link>
+                    <a href="/about-us">About Us</a>
+                  </li>
+				  <li>
+                    <a target="_blank" href="https://deansfort.medium.com/">Blog</a>
+                  </li>
+				  <li>
+                    <a href="/contact-us">Contact US</a>
                   </li>
                   <li>
-                    <Link href="/contact-us">Contact US</Link>
+                    <a href="/privacy-policy">Privacy Policy</a>
                   </li>
                   <li>
-                    <Link href="/contact-us">Privacy Policy</Link>
-                  </li>
-                  <li>
-                    <Link href="/terms-and-condition">Terms & Conditions</Link>
+                    <a href="terms&condition.html">Terms & Conditions</a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-xl-2 col-md-4">
               <div className="sofax-footer-menu">
-                <h5>Utility pages</h5>
+                <h5>Services</h5>
                 <ul>
                   <li>
-                    <Link href="/contact-us">Instructions</Link>
+                    <a href="/services/web-development">Web Development</a>
                   </li>
                   <li>
-                    <Link href="/contact-us">Style guide</Link>
+                    <a href="/services/ai-development">AI Development</a>
                   </li>
                   <li>
-                    <Link href="/error-page">404 Pages</Link>
+                    <a href="/services/it-services">IT Services</a>
                   </li>
                   <li>
-                    <Link href="/contact-us">Licenses</Link>
+                    <a href="/services/digital-marketing">Digital Marketing</a>
+                  </li>
+				  <li>
+                    <a href="/services/ecommerce-solutions">Ecommerce Solutions</a>
+                  </li>
+				  <li>
+                    <a href="/services/mobile-development">Mobile App Development</a>
                   </li>
                 </ul>
               </div>

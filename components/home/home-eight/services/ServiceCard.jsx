@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function ServiceCard({ service: { icon, title, description } }) {
+function ServiceCard({ service: { icon, title, description, link } }) {
 	return (
 		<div>
 			<div className="sofax-features-iconv7">
@@ -11,7 +11,7 @@ function ServiceCard({ service: { icon, title, description } }) {
 				<h4>{title}</h4>
 				<p>{description}</p>
 			</div>
-			<Link href="/single-service">
+			<Link href={link}>
 				<div className="sofax-icon-btn  sofax-blog-icon-btn blog-versionv7 mt-30">
 					Read More
 					<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
