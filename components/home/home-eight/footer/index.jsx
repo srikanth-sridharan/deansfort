@@ -85,7 +85,7 @@ function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" href="https://www.linkedin.com/company/deansfort/about/">
+                      <a target="_blank" href="https://www.linkedin.com/company/deansfort">
                         <svg
                           width="16"
                           height="16"
