@@ -7,13 +7,13 @@ import {
 function HeroContent() {
   return (
     <div className="sofax-hero-content hero-v8">
-      <h1
+      <h2
         className="slider-custom-anim-left"
         data-ani="slider-custom-anim-left"
         data-ani-delay="0.3s"
       >
         Experience the Difference: Expert IT Solutions for Every Need
-      </h1>
+      </h2>
       <p>
         With a team of skilled professionals, we provide top-tier IT services,
         including branding, web development, and IT resource management,
