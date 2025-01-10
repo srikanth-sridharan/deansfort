@@ -124,7 +124,7 @@ function Footer() {
                     <a href="/privacy-policy">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="terms&condition.html">Terms & Conditions</a>
+                    <a href="/terms-and-conditions">Terms & Conditions</a>
                   </li>
                 </ul>
               </div>

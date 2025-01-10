@@ -52,7 +52,7 @@ function AboutTwo() {
 								</div>
 							</div>
 							<FadeInUp className="sofax-title-btn extra-mt">
-								<Link className="sofax-default-btn pill" data-text="Explore More" href="/contact-us">
+								<Link className="sofax-default-btn pill" data-text="Explore More" href="/services/web-development">
 									<span className="button-wraper">Explore More</span>
 								</Link>
 							</FadeInUp>

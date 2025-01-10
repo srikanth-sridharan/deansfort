@@ -24,7 +24,7 @@ function HeroContent() {
           <Link
             className="sofax-default-btn pill"
             data-text="Explore More"
-            href="/contact-us"
+            href="#services"
           >
             <span className="button-wraper">Explore More</span>
           </Link>
@@ -33,7 +33,7 @@ function HeroContent() {
           <Link
             className="sofax-default-btn pill dark-btn"
             data-text="Contact Us"
-            href="/service"
+            href="/contact-us"
           >
             <span className="button-wraper">Contact Us</span>
           </Link>
