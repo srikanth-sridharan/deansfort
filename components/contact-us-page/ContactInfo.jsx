@@ -20,7 +20,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Your Voice Matters to Us!</h4>
-					<p>Reach out at (+91 6383 849 069), and we'll gladly assist you Monday-Friday, 9 AM to 5 PM.</p>
+					<p>Reach out at (+91 99420 07771), and we'll gladly assist you Monday-Friday, 9 AM to 5 PM.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
