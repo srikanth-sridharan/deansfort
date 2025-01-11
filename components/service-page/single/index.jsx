@@ -34,8 +34,7 @@ function SingleServiceDetails() {
             Our commitment to your success doesn't end with development. We
             provide ongoing maintenance and support services, including regular
             updates, technical troubleshooting, and performance optimization, to
-            ensure your website runs smoothly and securely 24/7. With [Company
-            Name], you can be confident that your online presence is reliable,
+            ensure your website runs smoothly and securely 24/7. With DeansFort Technologies, you can be confident that your online presence is reliable,
             effective, and always performing at its best.
           </p>
           <ServiceTabs />

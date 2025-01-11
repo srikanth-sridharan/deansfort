@@ -1,7 +1,6 @@
-import AutoSlider from "@/components/common/auto-slider";
+import AutoSliderDM from "@/components/common/auto-sliderDM";
 import BreadCrumb from "@/components/common/Breadcrumb";
-import Faq from "@/components/home/home-five/faq";
-import SingleServiceDetails from "@/components/service-page/single";
+import DMSingleServiceDetails from "@/components/service-page/dmservices";
 
 export const metadata = {
 	title: "Sofax || Responsive Next.js Template Single Service Page",
@@ -11,9 +10,8 @@ function SingleService() {
 	return (
 		<>
 			<BreadCrumb title="Digital Marketing" />
-			<SingleServiceDetails />
-			<Faq />
-			<AutoSlider />
+			<DMSingleServiceDetails />
+			<AutoSliderDM />
 		</>
 	);
 }
