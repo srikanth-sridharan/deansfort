@@ -13,9 +13,7 @@ function AboutTwo() {
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6 order-lg-2">
-						<FadeInRight className="sofax-content-thumbv8 ml-70">
 						<Lottie animationData={webdevelopment} loop={true} />{" "}
-						</FadeInRight>
 					</div>
 					<div className="col-lg-6">
 						<div className="sofax-default-content tac contentv8">

@@ -1,7 +1,7 @@
 import AutoSlider from "@/components/common/auto-slider";
 import BreadCrumb from "@/components/common/Breadcrumb";
 import Faq from "@/components/home/home-five/faq";
-import SingleServiceDetails from "@/components/service-page/single";
+import ITSingleServiceDetails from "@/components/service-page/itservices";
 
 export const metadata = {
 	title: "The AI and IT Web Development Company - DeansFort",
@@ -11,7 +11,7 @@ function SingleService() {
 	return (
 		<>
 			<BreadCrumb title="AI Development" />
-			<SingleServiceDetails />
+			<ITSingleServiceDetails />
 			<Faq />
 			<AutoSlider />
 		</>
