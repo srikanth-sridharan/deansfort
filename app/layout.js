@@ -17,11 +17,7 @@ import "swiper/css/scrollbar";
 import "react-toastify/dist/ReactToastify.css";
 
 // Bootstrap js
-import ImportBsJS from "@/components/BootstrapClient";
-
-// ScrollToTop
-import ScrollToTop from "@/hooks/ScrollToTop";
-// main css
+import ImportBsJS from "../components/BootstrapClient";
 import "../public/css/app.css";
 import "../public/css/main.css";
 import "../public/css/mobile-nav.css";
