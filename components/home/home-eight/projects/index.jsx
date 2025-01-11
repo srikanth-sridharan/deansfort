@@ -19,8 +19,8 @@ function Projects() {
 						</div>
 						<div className="col-xl-5 col-lg-4 d-flex justify-content-end align-items-center">
 							<div className="sofax-title-btn wow fadeInUpX">
-								<Link className="sofax-default-btn pill" data-text="Visit" href="https://meetmymart.com/">
-									<span className="button-wraper">Visit</span>
+								<Link className="sofax-default-btn pill" data-text="Coming Soon" href="#">
+									<span className="button-wraper">Coming Soon</span>
 								</Link>
 							</div>
 						</div>
