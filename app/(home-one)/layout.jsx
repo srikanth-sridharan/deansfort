@@ -1,5 +1,5 @@
 import Header from "@/components/home/home-eight/header/multi-page";
-import Footer from "@/components/home/home-eight/footer";
+import Footer from "@/components/home/home-eight/footer2";
 
 export const metadata = {
 	title: "The AI and IT Web Development Company - DeansFort",
