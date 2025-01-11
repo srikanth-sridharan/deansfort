@@ -8,52 +8,52 @@ const sliderData = [
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Digital Marketing Agency",
+		txt: "End-to-end deployment of Networking",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Start Up Business",
+		txt: "Cyber Security & IT Infrastructure upgrade",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Social Media Markating",
+		txt: "Technology Migrations",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Social Media Markating",
+		txt: "Building Data Centre",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Start Up Business",
+		txt: "O365 Migrations",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Digital Marketing Agency",
+		txt: "AD Migrations",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Start Up Business",
+		txt: "Domain Migrations",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Social Media Markating",
+		txt: "IT Relocations",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Social Media Markating",
+		txt: "GAP Analysis",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Start Up Business",
+		txt: "Consulting",
 	},
 ];
 
