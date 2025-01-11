@@ -25,6 +25,7 @@ import ScrollToTop from "@/hooks/ScrollToTop";
 import "../public/css/app.css";
 import "../public/css/main.css";
 import "../public/css/mobile-nav.css";
+import WhatsAppButton from "@/components/whatsappbutton";
 
 export const metadata = {
 	title: "Sofaxe || Responsive Next.js Template",
@@ -39,7 +40,7 @@ export default function RootLayout({ children }) {
 			<body className={`${inter.variable} ${DMSans.variable} ${clashGrotesk.variable}`}>
 				<ImportBsJS />
 				{children}
-				<ScrollToTop />
+				<WhatsAppButton />
 			</body>
 		</html>
 	);
