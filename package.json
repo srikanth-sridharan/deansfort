@@ -34,6 +34,7 @@
     "swiper": "^11.1.15"
   },
   "devDependencies": {
+    "@types/react": "19.0.4",
     "eslint": "^8",
     "eslint-config-next": "14.2.20"
   }
