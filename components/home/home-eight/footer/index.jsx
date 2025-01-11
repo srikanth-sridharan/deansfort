@@ -123,7 +123,7 @@ function Footer() {
                     <a target="_blank" href="https://deansfort.medium.com/">Blog</a>
                   </li>
 				  <li>
-                    <a href="/contact-us">Contact US</a>
+                    <a href="/contact-us">Contact Us</a>
                   </li>
                   <li>
                     <a href="/privacy-policy">Privacy Policy</a>

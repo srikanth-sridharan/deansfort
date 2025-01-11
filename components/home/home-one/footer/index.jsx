@@ -115,7 +115,7 @@ function Footer() {
 										<Link href="/about-us">About Us</Link>
 									</li>
 									<li>
-										<Link href="/contact-us">Contact US</Link>
+										<Link href="/contact-us">Contact Us</Link>
 									</li>
 									<li>
 										<Link href="/contact-us">Privacy Policy</Link>
