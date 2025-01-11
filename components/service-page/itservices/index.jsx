@@ -5,7 +5,7 @@ import ServiceTabs from "./ServiceTabs";
 import dynamic from "next/dynamic";
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 import ourApproach from "./ourApproach.json";
-function AISingleServiceDetails() {
+function ITSingleServiceDetails() {
   return (
     <section className="sofax-section-padding2">
       <div className="container">
@@ -100,4 +100,4 @@ function AISingleServiceDetails() {
   );
 }
 
-export default AISingleServiceDetails;
+export default ITSingleServiceDetails;

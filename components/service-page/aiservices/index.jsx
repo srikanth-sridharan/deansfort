@@ -1,140 +1,114 @@
 "use client";
-import Icon from "@/public/images/service/icon5.png";
 import Thumb2 from "@/public/images/service/service-thumb2.png";
-import Shape2 from "@/public/images/v5/shape2.png";
 import Image from "next/image";
 import FadeInRight from "../../animation/FadeInRight";
 import "react-tabs/style/react-tabs.css";
+import dynamic from "next/dynamic";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+import ourApproach from "./ourApproach.json";
 import ServiceTabs from "./ServiceTabs";
-function ITSingleServiceDetails() {
+function AISingleServiceDetails() {
   return (
     <section className="sofax-section-padding2">
       <div className="container">
         <div className="sofax-default-content inner-service1 pb-5">
-          <h2>Website Development</h2>
+          <h2>AI Development</h2>
           <p>
-            At DeansFort Technologies, we provide a comprehensive suite of IT
-            services designed to empower businesses with cutting-edge technology
-            solutions. Our expertise spans across a wide range of areas,
-            including network deployment, cybersecurity, infrastructure
-            upgrades, and cloud migrations.
+            At DeansFort Technologies, we recognize the transformative power of
+            Artificial Intelligence and are dedicated to helping businesses
+            harness its potential. We offer a comprehensive suite of AI
+            development services, from strategic consulting and model
+            development to deployment, maintenance, and ongoing support.
           </p>
 
           <p>
-            We prioritize a consultative approach, working closely with clients
-            to understand their unique business objectives and identify the most
-            effective solutions. From strategic planning and implementation to
-            ongoing support and maintenance, we ensure that our clients' IT
-            systems are always secure, reliable, and optimized for peak
-            performance.
+            We understand that every AI journey is unique. Therefore, we
+            prioritize a collaborative approach, working closely with our
+            clients to understand their specific needs and challenges. Our team
+            of expert 1 data scientists, engineers, and consultants leverages
+            the latest AI/ML technologies to develop customized solutions that
+            address your unique business objectives and drive tangible results.
           </p>
 
           <p>
-            Whether you're seeking to modernize your IT infrastructure, enhance
-            your data security, or streamline your business operations,
-            DeansFort Technologies is your trusted partner. We are committed to
-            delivering exceptional service and exceeding client expectations.
+            Whether you're looking to automate processes, gain deeper insights
+            from your data, or create innovative new products and services,
+            DeansFort Technologies is your trusted partner in AI. We are
+            committed to delivering high-quality, ethical, and impactful AI
+            solutions that empower your business to thrive in the ever-evolving
+            digital landscape.
           </p>
           <ServiceTabs />
-        </div>
-        <div className="sofax-default-content sofax-inner-service-details position-ralatiove">
-          <h2>How our agency provides UI/UX design services</h2>
-          <p>
-            UI/UX design services typically encompass the creation and
-            optimization of user interfaces (UI) and user experiences (UX) for
-            the digital products such as websites, mobile apps, and software
-            applications. Here are some key components of UI/UX design services.
-          </p>
-          <div className="sofax-service-inner-details-shape">
-            <Image src={Shape2} alt="Shape2" />
-          </div>
-        </div>
-
-        <div className="sofax-section-title">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="sofax-default-content inner-service2 dark-bg">
-                <h3 className="light-color">UI/UX design strategies</h3>
-                <p>
-                  The broader context of a project aligning to design decisions
-                  with business goals & creating roadmap for achieving optimal
-                  user experiences.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="sofax-default-content">
-                <div className="sofax-list-icon-wrap">
-                  <div className="sofax-list-icon-icon">
-                    <ul>
-                      <li>
-                        <Image src={Icon} alt="Icon" />
-                        Measurement & analytics
-                      </li>
-                      <li>
-                        <Image src={Icon} alt="Icon" />
-                        User-centered approach
-                      </li>
-                      <li>
-                        <Image src={Icon} alt="Icon" />
-                        Persona development
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="sofax-list-icon-icon">
-                    <ul>
-                      <li>
-                        <Image src={Icon} alt="Icon" />
-                        Wireframing & prototyping
-                      </li>
-                      <li>
-                        <Image src={Icon} alt="Icon" />
-                        Stakeholder alignment
-                      </li>
-                      <li>
-                        <Image src={Icon} alt="Icon" />
-                        Iterative improvement
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <div className="row">
           <div className="col-lg-7">
             <div className="sofax-default-content mr-50">
               <h2>Our Approach</h2>
               <p>
-                The approach of a digital agency typically encompasses its
-                methodologies, philosophies, and strategies for delivering value
-                to clients. Here's a general outline of what "Our Approach"
-                might entail for a digital agency:
+                At DeansFort Technologies, we believe that successful AI
+                implementation requires a human-centered approach. We prioritize
+                deep understanding, collaborative partnerships, and data-driven
+                decision-making in all our engagements.
               </p>
               <div className="extra-mt">
                 <div className="sofax-inner-service-content-data">
                   <h4>1. Understanding Client Needs</h4>
                   <p>
-                    We are beginning by thoroughly understanding the target
-                    industries & unique challenges of our clients' target
-                    audiences. This includes active listening.
+                    We begin by thoroughly understanding your business goals,
+                    challenges, and the specific problems you aim to solve with
+                    AI. We conduct in-depth interviews and workshops to gain a
+                    comprehensive understanding of your industry, target
+                    audience, and existing data landscape. This collaborative
+                    process ensures that our AI solutions are truly aligned with
+                    your unique needs and objectives.
                   </p>
                 </div>
                 <div className="sofax-inner-service-content-data">
-                  <h4>2. Collaborative Planning</h4>
+                  <h4>2. Collaborative Planning & Strategy</h4>
                   <p>
-                    We beging collaboration and teamwork. We work closely with
-                    our clients to co-create a tailored strategy that aligns
-                    with their objectives & budget.
+                    We believe in the power of collaboration. We work closely
+                    with your team throughout the entire project lifecycle, from
+                    initial strategy development to ongoing maintenance. We
+                    foster open communication and transparent decision-making to
+                    ensure that your project stays on track and delivers the
+                    desired outcomes.
                   </p>
                 </div>
                 <div className="sofax-inner-service-content-data">
-                  <h4>3. Understanding Client Needs</h4>
+                  <h4>3. Data-Driven Innovation</h4>
                   <p>
-                    We conduct in-depth research & analysis to inform
-                    strategies. This includes market research, competitor
-                    analysis, audience segmentation & analysis.
+                    Our approach is grounded in data-driven insights. We conduct
+                    rigorous data analysis, leveraging advanced techniques to
+                    identify patterns, trends, and opportunities. This
+                    data-driven approach informs all aspects of our AI
+                    development process, from model selection and training to
+                    deployment and optimization.
+                  </p>
+                </div>
+                <div className="sofax-inner-service-content-data">
+                  <h4>4. Ethical and Responsible AI</h4>
+                  <p>
+                    We prioritize the ethical development and deployment of AI
+                    solutions. We adhere to responsible AI principles, ensuring
+                    fairness, transparency, and accountability in all our work.
+                    We strive to develop AI systems that are beneficial to
+                    society and minimize potential risks.
+                  </p>
+                </div>
+                <div className="sofax-inner-service-content-data">
+                  <h4>5. Continuous Improvement</h4>
+                  <p>
+                    We believe in continuous learning and improvement. We
+                    regularly monitor the performance of deployed AI models,
+                    gather feedback, and refine our solutions based on new data
+                    and insights. This iterative approach ensures that our AI
+                    solutions remain effective and deliver long-term value.
+                  </p>
+                  <p>
+                    By following this approach, we ensure that our AI solutions
+                    are not only technically sound but also strategically
+                    aligned with your business goals, ethically sound, and built
+                    to deliver sustainable value.
                   </p>
                 </div>
               </div>
@@ -142,7 +116,7 @@ function ITSingleServiceDetails() {
           </div>
           <div className="col-lg-5 order-lg-2">
             <FadeInRight className="sofax-inner-content-thumb">
-              <Image src={Thumb2} alt="THumbs" />
+            <Lottie animationData={ourApproach} loop={true} />{" "}
             </FadeInRight>
           </div>
         </div>
@@ -151,4 +125,4 @@ function ITSingleServiceDetails() {
   );
 }
 
-export default ITSingleServiceDetails;
+export default AISingleServiceDetails;

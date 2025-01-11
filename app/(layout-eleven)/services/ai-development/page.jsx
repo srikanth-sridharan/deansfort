@@ -1,6 +1,7 @@
 import AutoSlider from "@/components/common/auto-slider";
 import BreadCrumb from "@/components/common/Breadcrumb";
 import Faq from "@/components/home/home-five/faq";
+import AISingleServiceDetails from "@/components/service-page/aiservices";
 import ITSingleServiceDetails from "@/components/service-page/itservices";
 
 export const metadata = {
@@ -11,8 +12,7 @@ function SingleService() {
 	return (
 		<>
 			<BreadCrumb title="AI Development" />
-			<ITSingleServiceDetails />
-			<Faq />
+			<AISingleServiceDetails />
 			<AutoSlider />
 		</>
 	);

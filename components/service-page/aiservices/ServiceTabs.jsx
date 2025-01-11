@@ -1,16 +1,16 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import {
-  Network,
-  Shield,
-  ArrowRightLeft,
+  Brain,
+  CodeSquare,
+  Cpu,
   Database,
-  Cloud,
-  Users,
-  Globe,
-  Building,
-  FileSearch,
-  Headphones,
+  Server,
+  TestTube,
+  Scale,
+  Microscope,
+  GraduationCap,
+  WrenchIcon,
 } from "lucide-react";
 
 function ServiceTabs() {
@@ -21,56 +21,62 @@ function ServiceTabs() {
           <TabList className="nav nav-pills nav-fill mb-4">
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Network size={20} />
-                <span>End-to-end deployment of Networking</span>
+                <Brain size={20} />
+                <span>AI Strategy & Consulting</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Shield size={20} />
-                <span>Cyber Security & IT Infrastructure upgrade</span>
+                <CodeSquare size={20} />
+                <span>AI Model Development & Training</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <ArrowRightLeft size={20} />
-                <span>Technology Migrations</span>
+                <Cpu size={20} />
+                <span>AI-Powered Solutions</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
                 <Database size={20} />
-                <span>Building Data Centre</span>
+                <span>AI Data Services</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Cloud size={20} />
-                <span>O365 Migrations</span>
+                <Server size={20} />
+                <span>AI Infrastructure & Deployment</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Cloud size={20} />
-                <span>Domain Migrations</span>
+                <TestTube size={20} />
+                <span>AI Testing & Validation</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Cloud size={20} />
-                <span>IT Relocations</span>
+                <Scale size={20} />
+                <span>AI Ethics & Governance</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Cloud size={20} />
-                <span>GAP Analysis</span>
+                <Microscope size={20} />
+                <span>AI Research & Development</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Cloud size={20} />
-                <span>Consulting</span>
+                <GraduationCap size={20} />
+                <span>AI Training & Education</span>
+              </div>
+            </Tab>
+            <Tab className="nav-item">
+              <div className="nav-link d-flex align-items-center justify-content-center gap-2">
+                <WrenchIcon size={20} />
+                <span>AI Support & Maintenance</span>
               </div>
             </Tab>
           </TabList>
@@ -78,83 +84,131 @@ function ServiceTabs() {
           <div className="tab-content">
             <TabPanel>
               <div className="service-content">
-              <h3>End-to-end deployment of Networking</h3>
+                <h3>AI Strategy & Consulting</h3>
                 <p>
-                Streamline your business operations with our comprehensive networking solutions. From design and implementation to ongoing support and maintenance, we deliver robust and scalable networks tailored to your specific needs, ensuring seamless connectivity, enhanced performance, and improved productivity.
+                  Our team provides expert guidance on developing and
+                  implementing successful AI strategies. We help you define
+                  clear AI goals, conduct feasibility studies, assess data
+                  readiness, and choose the right AI/ML technologies to achieve
+                  your business objectives.
                 </p>
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="service-content">
-                <h3>Cyber Security & IT Infrastructure upgrade</h3>
+                <h3>AI Model Development & Training</h3>
                 <p>
-                Protect your valuable data and systems with our advanced cybersecurity solutions. We conduct thorough assessments, implement robust security measures, and upgrade your IT infrastructure to the latest standards, mitigating risks and ensuring business continuity in today's evolving threat landscape.
+                  We specialize in building and training high-performing AI/ML
+                  models. Our skilled data scientists leverage advanced
+                  techniques like deep learning and natural language processing
+                  to create custom models that meet your specific needs. We
+                  prioritize model optimization to ensure efficient and
+                  effective performance.
                 </p>
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="service-content">
-                <h3>Technology Migrations</h3>
+                <h3>AI-Powered Solutions</h3>
                 <p>
-                Seamlessly transition to new technologies with our expert migration services. We plan, execute, and support migrations to cloud platforms, new operating systems, and other cutting-edge technologies, minimizing downtime, reducing risks, and maximizing the return on your technology investments.
+                  We develop innovative AI-powered applications that solve
+                  real-world business challenges. From chatbots and
+                  recommendation systems to image recognition and predictive
+                  analytics, we create custom solutions that integrate
+                  seamlessly with your existing systems and enhance your
+                  customer experience.
                 </p>
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="service-content">
-                <h3>Building Data Centre</h3>
+                <h3>AI Data Services</h3>
                 <p>
-                Establish a secure and reliable foundation for your IT operations with our data center construction services. We design, build, and implement state-of-the-art data centers that meet your specific requirements for performance, scalability, and security, ensuring optimal data storage, processing, and access.
+                  We provide comprehensive data services to support your AI
+                  initiatives. Our expertise includes data collection, cleaning,
+                  preparation, and labeling, ensuring high-quality data for
+                  model training. We also offer data analysis and visualization
+                  services to help you gain valuable insights from your data.
                 </p>
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="service-content">
-                <h3>O365 Migrations</h3>
+                <h3>AI Infrastructure & Deployment</h3>
                 <p>
-                Effortlessly migrate to Microsoft 365 with our comprehensive migration services. We seamlessly transfer your data, applications, and user accounts to the cloud, enabling enhanced collaboration, improved productivity, and access to the latest Microsoft technologies.
+                  We design and implement robust AI infrastructure solutions,
+                  including cloud-based and on-premise options. We ensure
+                  seamless model deployment and management, and provide ongoing
+                  monitoring and maintenance to ensure optimal performance and
+                  scalability.
                 </p>
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="service-content">
-                <h3>AD Migrations</h3>
+                <h3>AI Testing & Validation</h3>
                 <p>
-                Simplify your Active Directory management with our expert migration services. We seamlessly migrate your existing Active Directory environment to a new domain, reducing complexity, improving security, and streamlining user management processes.</p>
+                  We conduct rigorous testing and validation of AI models to
+                  ensure accuracy, reliability, and robustness. Our
+                  comprehensive testing procedures include performance
+                  benchmarking and quality assurance measures to guarantee the
+                  highest level of quality and reliability.
+                </p>
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="service-content">
-                <h3>Domain Migrations</h3>
+                <h3>AI Ethics & Governance</h3>
                 <p>
-                Streamline your IT operations with our seamless domain migration services. We migrate your network from one domain to another, minimizing downtime, reducing risks, and ensuring a smooth transition for your users and applications.</p>
-                </div>
+                  We prioritize ethical and responsible AI development. We
+                  advise on ethical considerations, implement robust governance
+                  frameworks, and conduct AI audits to ensure compliance with
+                  regulations and maintain transparency in all AI-related
+                  activities.
+                </p>
+              </div>
             </TabPanel>
             <TabPanel>
               <div className="service-content">
-                <h3>IT Relocations</h3>
+                <h3>AI Research & Development</h3>
                 <p>
-                Streamline your IT operations with our seamless domain migration services. We migrate your network from one domain to another, minimizing downtime, reducing risks, and ensuring a smooth transition for your users and applications.</p>
-                </div>
+                  We stay at the forefront of AI innovation through continuous
+                  research and development. We explore emerging technologies and
+                  develop cutting-edge AI solutions for challenging problems,
+                  collaborating with academic institutions and research
+                  organizations to advance the field of AI.
+                </p>
+              </div>
             </TabPanel>
             <TabPanel>
               <div className="service-content">
-                <h3>GAP Analysis</h3>
+                <h3>AI Training & Education</h3>
                 <p>
-                Identify and address critical gaps in your IT infrastructure and security posture with our in-depth gap analysis services. We conduct thorough assessments, identify potential risks, and recommend solutions to improve your overall IT performance and security.</p>
-                </div>
+                  We empower your team with the knowledge and skills they need
+                  to succeed in the AI era. We offer comprehensive training
+                  programs on AI/ML concepts and technologies, tailored to your
+                  specific needs and skill levels. We also provide education on
+                  how to leverage AI effectively to improve business operations.
+                </p>
+              </div>
             </TabPanel>
             <TabPanel>
               <div className="service-content">
-                <h3>Consulting</h3>
+                <h3>AI Support & Maintenance</h3>
                 <p>
-                Gain valuable insights and expert guidance with our comprehensive IT consulting services. We provide strategic advice on a wide range of IT issues, including cloud adoption, cybersecurity, data center optimization, and more, helping you make informed decisions and achieve your business objectives.</p>                </div>
+                  We provide ongoing support and maintenance for your deployed
+                  AI models. We monitor model performance, address any issues
+                  that arise, and continuously improve and update models based
+                  on new data and feedback, ensuring optimal performance and
+                  long-term success.
+                </p>
+              </div>
             </TabPanel>
           </div>
         </Tabs>
