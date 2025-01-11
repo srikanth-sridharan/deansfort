@@ -44,10 +44,10 @@ const servicesData = [
 	{
 		id: 5,
 		icon: icon5,
-		title: "Ecommere Solutions",
+		title: "E-commerce Solutions",
 		description:
 			"Develop high-performing e-commerce stores on WordPress, Shopify, or custom frameworks like Next.js (MERN/PERN) for unique business needs.",
-			link: "/services/ecommerce-solutions",
+			link: "/services/e-commerce-solutions",
 
 		},
 	{

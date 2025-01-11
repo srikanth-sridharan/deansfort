@@ -13,7 +13,7 @@ function DesktopMenu() {
 					<DropdownItem url="services/ai-development">AI Development</DropdownItem>
 					<DropdownItem url="services/it-services">IT Services</DropdownItem>
 					<DropdownItem url="services/digital-marketing">Digital Marketing</DropdownItem>
-					<DropdownItem url="services/ecommerce-solutions">Ecommerce Solutions</DropdownItem>
+					<DropdownItem url="services/e-commerce-solutions">E-commerce Solutions</DropdownItem>
 					<DropdownItem url="services/mobile-development">Mobile App Development</DropdownItem>
 
 				</Dropdown>

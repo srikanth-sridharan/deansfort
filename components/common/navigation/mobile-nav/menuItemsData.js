@@ -28,8 +28,8 @@ export const menuItemsData = [
 				url: "services/digital-marketing",
 			},
 			{
-				title: "Ecommerce Solutions",
-				url: "services/ecommerce-solutions",
+				title: "E-commerce Solutions",
+				url: "services/e-commerce-solutions",
 			},
 			{
 				title: "Mobile App Development",

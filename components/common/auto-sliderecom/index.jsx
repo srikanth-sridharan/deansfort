@@ -8,7 +8,7 @@ const sliderData = [
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Shopify Ecommerce Solutions",
+		txt: "Shopify E-commerce Solutions",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -18,22 +18,22 @@ const sliderData = [
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Custom Ecommerce Development",
+		txt: "Custom E-commerce Development",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Ecommerce Website Design & Development",
+		txt: "E-commerce Website Design & Development",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Ecommerce Marketing & Optimization",
+		txt: "E-commerce Marketing & Optimization",
 	},
 	{
 		id: crypto.randomUUID(),
 		img: Icon1,
-		txt: "Ecommerce Integrations & Support",
+		txt: "E-commerce Integrations & Support",
 	},
 ];
 

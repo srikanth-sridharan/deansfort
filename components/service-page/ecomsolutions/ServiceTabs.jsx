@@ -17,7 +17,7 @@ function ServiceTabs() {
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
                 <Store size={20} />
-                <span>Shopify Ecommerce Solutions</span>
+                <span>Shopify E-commerce Solutions</span>
               </div>
             </Tab>
             <Tab className="nav-item">
@@ -29,25 +29,25 @@ function ServiceTabs() {
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
                 <Code2 size={20} />
-                <span>Custom Ecommerce Development</span>
+                <span>Custom E-commerce Development</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
                 <Palette size={20} />
-                <span>Ecommerce Website Design & Development</span>
+                <span>E-commerce Website Design & Development</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
                 <TrendingUp size={20} />
-                <span>Ecommerce Marketing & Optimization</span>
+                <span>E-commerce Marketing & Optimization</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
                 <Puzzle size={20} />
-                <span>Ecommerce Integrations & Support</span>
+                <span>E-commerce Integrations & Support</span>
               </div>
             </Tab>
           </TabList>
@@ -55,7 +55,7 @@ function ServiceTabs() {
           <div className="tab-content">
             <TabPanel>
               <div className="service-content">
-                <h3>Shopify Ecommerce Solutions</h3>
+                <h3>Shopify E-commerce Solutions</h3>
                 <p>
                   Seamlessly launch and scale your online store on the powerful
                   Shopify platform. Our experts handle store setup, theme
@@ -79,9 +79,9 @@ function ServiceTabs() {
 
             <TabPanel>
               <div className="service-content">
-                <h3>Custom Ecommerce Development</h3>
+                <h3>Custom E-commerce Development</h3>
                 <p>
-                  Tailor-made ecommerce solutions built from the ground up to
+                  Tailor-made e-commerce solutions built from the ground up to
                   meet your unique business needs and exceed your customer
                   expectations. Our team utilizes cutting-edge technologies to
                   create high-performance, scalable, and secure online stores.
@@ -91,10 +91,10 @@ function ServiceTabs() {
 
             <TabPanel>
               <div className="service-content">
-                <h3>Ecommerce Website Design & Development</h3>
+                <h3>E-commerce Website Design & Development</h3>
                 <p>
                   Transform your brand with visually stunning and user-friendly
-                  ecommerce websites. We design and develop engaging online
+                  e-commerce websites. We design and develop engaging online
                   stores that drive conversions, enhance customer satisfaction,
                   and build brand loyalty.
                 </p>
@@ -103,10 +103,10 @@ function ServiceTabs() {
 
             <TabPanel>
               <div className="service-content">
-                <h3>Ecommerce Marketing & Optimization</h3>
+                <h3>E-commerce Marketing & Optimization</h3>
                 <p>
                   Increase your online visibility and drive sales with our
-                  comprehensive ecommerce marketing services. We specialize in
+                  comprehensive e-commerce marketing services. We specialize in
                   SEO, PPC advertising, social media marketing, email marketing,
                   and conversion rate optimization.
                 </p>
@@ -115,9 +115,9 @@ function ServiceTabs() {
 
             <TabPanel>
               <div className="service-content">
-                <h3>Ecommerce Integrations & Support</h3>
+                <h3>E-commerce Integrations & Support</h3>
                 <p>
-                  Seamlessly integrate your ecommerce store with various
+                  Seamlessly integrate your e-commerce store with various
                   platforms and tools, including payment gateways, shipping
                   carriers, CRM systems, and marketing automation platforms. We
                   also provide ongoing support and maintenance to ensure your

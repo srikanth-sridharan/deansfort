@@ -10,13 +10,13 @@ function EcomSingleServiceDetails() {
     <section className="sofax-section-padding2">
       <div className="container">
         <div className="sofax-default-content inner-service1 pb-5">
-          <h2>Ecommerce Solutions</h2>
+          <h2>E-commerce Solutions</h2>
           <p>
-            Deansfort Technologies excels at delivering comprehensive ecommerce
+            Deansfort Technologies excels at delivering comprehensive e-commerce
             solutions tailored to meet the unique needs of businesses across
             various industries. We specialize in building high-performing online
             stores on leading platforms like Shopify and WordPress WooCommerce,
-            as well as developing custom ecommerce solutions using cutting-edge
+            as well as developing custom e-commerce solutions using cutting-edge
             frontend and backend frameworks. Our expertise extends beyond
             platform selection, encompassing website design and development,
             robust integrations with essential business tools, and a suite of
@@ -25,22 +25,22 @@ function EcomSingleServiceDetails() {
           </p>
           <p>
             Whether you're a small business looking to establish an online
-            presence or an enterprise seeking to enhance your existing ecommerce
+            presence or an enterprise seeking to enhance your existing e-commerce
             operations, Deansfort Technologies provides a full-service approach.
             We prioritize understanding your specific business goals and
             translating them into a successful online strategy. Our team of
             skilled developers, designers, and marketing experts ensures that
-            your ecommerce store is not only visually appealing and
+            your e-commerce store is not only visually appealing and
             user-friendly but also optimized for conversions, search engines,
             and overall business growth.
           </p>
           <p>
             At Deansfort Technologies, we are committed to providing exceptional
-            customer service and ongoing support throughout the entire ecommerce
+            customer service and ongoing support throughout the entire e-commerce
             journey. We believe in building long-term partnerships with our
             clients, ensuring their online success through continuous
             improvement and proactive solutions. Contact us today to discuss
-            your ecommerce needs and discover how Deansfort Technologies can
+            your e-commerce needs and discover how Deansfort Technologies can
             help you achieve your online business goals.
           </p>
           <ServiceTabs />
@@ -52,7 +52,7 @@ function EcomSingleServiceDetails() {
               <p>
                 At Deansfort Technologies, we take a structured and
                 client-focused approach to developing and implementing
-                successful ecommerce solutions.
+                successful e-commerce solutions.
               </p>
               <div className="extra-mt">
                 <div className="sofax-inner-service-content-data">
@@ -68,7 +68,7 @@ function EcomSingleServiceDetails() {
                   <h4>2. Strategic Planning & Design</h4>
                   <p>
                     Based on our findings, we develop a comprehensive strategy
-                    that outlines the key elements of your ecommerce solution.
+                    that outlines the key elements of your e-commerce solution.
                     This includes:
                   </p>
                   <ul>
@@ -94,7 +94,7 @@ function EcomSingleServiceDetails() {
                 <div className="sofax-inner-service-content-data">
                   <h4>3. Development & Implementation</h4>
                   <p>
-                    Our skilled developers meticulously build your ecommerce
+                    Our skilled developers meticulously build your e-commerce
                     store, ensuring high-quality code, robust functionality, and
                     a secure environment. We closely monitor the development
                     process, conducting rigorous testing at each stage to ensure
@@ -119,7 +119,7 @@ function EcomSingleServiceDetails() {
                     We prioritize open and transparent communication throughout
                     the entire process. We work closely with you to understand
                     your needs, address your concerns, and ensure that your
-                    ecommerce solution exceeds your expectations.
+                    e-commerce solution exceeds your expectations.
                   </p>
                 </div>
               </div>

@@ -16,7 +16,7 @@ const servicesData = [
 		id: 3,
 		title: "E-commerce Solutions",
 		description:
-			"Assisting with the development and management of online stores for businesses engaged in ecommerce.",
+			"Assisting with the development and management of online stores for businesses engaged in e-commerce.",
 	},
 	{
 		id: 4,

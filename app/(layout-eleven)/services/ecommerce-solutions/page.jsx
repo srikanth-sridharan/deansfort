@@ -9,7 +9,7 @@ export const metadata = {
 function SingleService() {
 	return (
 		<>
-			<BreadCrumb title="Ecommerce Solutions" />
+			<BreadCrumb title="E-commerce Solutions" />
 			<EcomSingleServiceDetails />
 			<AutoSliderecom />
 		</>
