@@ -51,25 +51,31 @@ function ServiceTabs() {
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Cloud size={20} />
+                <Users size={20} />
+                <span>AD Migrations</span>
+              </div>
+            </Tab>
+            <Tab className="nav-item">
+              <div className="nav-link d-flex align-items-center justify-content-center gap-2">
+                <Globe size={20} />
                 <span>Domain Migrations</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Cloud size={20} />
+                <Building size={20} />
                 <span>IT Relocations</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Cloud size={20} />
+                <FileSearch size={20} />
                 <span>GAP Analysis</span>
               </div>
             </Tab>
             <Tab className="nav-item">
               <div className="nav-link d-flex align-items-center justify-content-center gap-2">
-                <Cloud size={20} />
+                <Headphones size={20} />
                 <span>Consulting</span>
               </div>
             </Tab>
