@@ -1,7 +1,6 @@
-import AutoSlider from "@/components/common/auto-slider";
+import AutoSliderMobile from "@/components/common/auto-slidermobile";
 import BreadCrumb from "@/components/common/Breadcrumb";
-import Faq from "@/components/home/home-five/faq";
-import SingleServiceDetails from "@/components/service-page/single";
+import MobileSingleServiceDetails from "@/components/service-page/mobileservices";
 
 export const metadata = {
 	title: "The AI and IT Web Development Company - DeansFort",
@@ -10,10 +9,9 @@ export const metadata = {
 function SingleService() {
 	return (
 		<>
-			<BreadCrumb title="Website Development" />
-			<SingleServiceDetails />
-			<Faq />
-			<AutoSlider />
+			<BreadCrumb title="Mobile Development" />
+			<MobileSingleServiceDetails />
+			<AutoSliderMobile />
 		</>
 	);
 }
