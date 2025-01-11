@@ -1,5 +1,5 @@
 export const metadata = {
-	title: "The AI and IT Web Development Company - DeansFort",
+	title: "Privacy Policy | The AI and IT Web Development Company - DeansFort",
 	description: "DeansFort: A leading AI web development agency offering comprehensive digital solutions including web development, mobile app creation, IT services, digital marketing, and innovative branding strategies.",
 };
 function PrivacyPolicyPage() {

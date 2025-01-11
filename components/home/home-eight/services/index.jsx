@@ -47,7 +47,7 @@ const servicesData = [
 		title: "E-commerce Solutions",
 		description:
 			"Develop high-performing e-commerce stores on WordPress, Shopify, or custom frameworks like Next.js (MERN/PERN) for unique business needs.",
-			link: "/services/e-commerce-solutions",
+			link: "/services/ecommerce-solutions",
 
 		},
 	{

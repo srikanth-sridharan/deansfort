@@ -4,8 +4,8 @@ import featureIcon from "@/public/images/v1/icon8.png";
 
 // Teams images
 export const metadata = {
-	title: "The AI and IT Web Development Company - DeansFort",
-	description: "DeansFort: A leading AI web development agency offering comprehensive digital solutions including web development, mobile app creation, IT services, digital marketing, and innovative branding strategies.",
+	title: "About DeansFort | The AI and IT Web Development Company - DeansFort",
+	description: "Learn how DeansFort helps businesses achieve their goals with cutting-edge AI, web development, and digital marketing solutions. Discover our client-centric approach and why we are the right partner for your success.",
 };
 function AboutUs() {
   return (

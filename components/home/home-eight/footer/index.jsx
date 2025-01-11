@@ -151,7 +151,7 @@ function Footer() {
                     <a href="/services/digital-marketing">Digital Marketing</a>
                   </li>
 				  <li>
-                    <a href="/services/e-commerce-solutions">E-commerce Solutions</a>
+                    <a href="/services/ecommerce-solutions">E-commerce Solutions</a>
                   </li>
 				  <li>
                     <a href="/services/mobile-development">Mobile App Development</a>

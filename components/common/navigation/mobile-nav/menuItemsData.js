@@ -29,7 +29,7 @@ export const menuItemsData = [
 			},
 			{
 				title: "E-commerce Solutions",
-				url: "services/e-commerce-solutions",
+				url: "services/ecommerce-solutions",
 			},
 			{
 				title: "Mobile App Development",
