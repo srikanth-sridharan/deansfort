@@ -14,7 +14,7 @@ function Header() {
 						<DesktopMenu />
 					</div>
 					<HeaderButton />
-					<MobileNavbar menuItemsData={menuItemsData} title="DeansFort Technologies" />
+					<MobileNavbar menuItemsData={menuItemsData} title="DeansFort" />
 				</nav>
 			</div>
 		</header>

@@ -127,9 +127,7 @@ function EcomSingleServiceDetails() {
           </div>
 
           <div className="col-lg-5 order-lg-2">
-            <FadeInRight className="sofax-inner-content-thumb">
               <Lottie animationData={ourApproach} loop={true} />{" "}
-            </FadeInRight>
           </div>
         </div>
       </div>
