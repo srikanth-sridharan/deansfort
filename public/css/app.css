@@ -8635,4 +8635,6 @@ button#sofax-submit-btn:hover {
 	gap: 0.5rem;
   }
   
-  
+  .floating-whatsapp {
+	position: fixed !important;
+  }
