@@ -749,7 +749,9 @@ p:last-child {
 .dark-bg {
 	background-color: var(--dark-bg);
 }
-
+.dark-bgcolor {
+	color: var(--dark-bg);
+}
 .yellow-bg {
 	background-color: var(--yellow-bg);
 }
@@ -3952,6 +3954,19 @@ h1.post__title {
 }
 .sofax-iconbox-data2 a {
 	color: var(--white-color);
+	font-size: 20px;
+}
+.sofax-iconbox-data2 a:last-child {
+	margin-bottom: 0;
+}
+.sofax-iconbox-data5 h5 {
+	margin-bottom: 5px;
+}
+.sofax-iconbox-data5 h4 {
+	margin-bottom: 15px;
+}
+.sofax-iconbox-data5 a {
+	color: var(--dark-bg);
 	font-size: 20px;
 }
 .sofax-iconbox-data2 a:last-child {

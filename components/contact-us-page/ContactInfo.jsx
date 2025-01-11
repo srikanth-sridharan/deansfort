@@ -29,9 +29,9 @@ function ContactInfo() {
 				<div className="sofax-iconbox-icon2">
 					<Image src={Icon3} alt="Email Icon" />
 				</div>
-				<div className="sofax-iconbox-data2">
+				<div className="sofax-iconbox-data5">
 					<h4>Got Questions? Drop Us a Line!</h4>
-					<p>Send us an email at contact@deansfort.com, and we’ll respond within 24 hours.</p>
+				<p>Send us an email at <a className="dark-bgcolor" href="mailto:contact@deansfort.com">contact@deansfort.com</a>, and we’ll respond within 24 hours.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
