@@ -15,7 +15,6 @@ export default function App() {
       notification={true}
       notificationDelay={60}
       allowEsc
-      allowClickAway
       notificationSound
       className="floating-whatsapp"
     />
