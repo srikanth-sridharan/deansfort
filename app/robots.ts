@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://deansfort.vercel.app/sitemap.xml',
+    sitemap: 'https://deansfort.com/sitemap.xml',
   }
 }
