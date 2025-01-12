@@ -8638,3 +8638,9 @@ button#sofax-submit-btn:hover {
   .floating-whatsapp {
 	position: fixed !important;
   }
+  .nav-pills .nav-item {
+	cursor: pointer;
+  }
+  .sofax-subcribe-btn2 {
+	color: #fff;
+  }
